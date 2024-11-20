@@ -15,8 +15,10 @@ cd gym-locm
 
 pip install -e .
 
-then call this at the top
+then import the libraries: 
 
 import gym
 
 import gym_locm
+
+Then you should be able to run runner.py to simulate games of LOCM (that didn't work for me, I think because I'm on Windows, so I use runner_edit.py)
